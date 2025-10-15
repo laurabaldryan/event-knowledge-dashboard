@@ -47,24 +47,25 @@ The dashboard integrates information from:
 
 ##  Limitations and Future Improvements
 ### Performance
-    - The app can become slower when geocoding many new locations at once.
-    - Some graph calculations (like betweenness or eigenvector) take time on large datasets.
-    - Future versions can make geocoding and graph calculations faster by running them in the background or using approximate methods.
+   - The app can become slower when geocoding many new locations at once.
+   - Some graph calculations (like betweenness or eigenvector) take time on large datasets.
+   - Future versions can make geocoding and graph calculations faster by running them in the background or using approximate methods.
+    
 ### Scalability
     - For very large datasets, the app could use a database or a backend API to handle heavy processing.
 
 ##  Installation and Usage
-### 1. Clone the Repository
-git clone https://github.com/<your-username>/event-knowledge-dashboard.git
+### 1. Clone the Repository   
+git clone https://github.com/<your-username>/event-knowledge-dashboard.git   
 cd event-knowledge-dashboard
 
 ### 2. Create a Virtual Environment
-python -m venv venv
-venv\Scripts\activate        # On Windows
-source venv/bin/activate     # On macOS or Linux
+python -m venv venv    
+venv\Scripts\activate        # On Windows     
+source venv/bin/activate     # On macOS or Linux    
 
 ### 3. Install Dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt   
 
 ### 4. Run the Application
 streamlit run app.py
@@ -83,3 +84,4 @@ streamlit run app.py
   Python 3.9 or higher
   RAM: at least 4 GB (8 GB recommended for large datasets)
   Internet connection for first-time geocoding requests
+
