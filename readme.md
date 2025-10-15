@@ -35,7 +35,7 @@ The dashboard integrates information from:
 - Coordinates are saved in a local CSV (geocache.csv) to avoid redundant requests.
 - Folium displays a world map of events, colored by sentiment or taxonomy type.
 4) Timeline Visualization
-- Uses Plotly to plot the number of events and average sentiment over time (monthly or weekly).
+- Uses Plotly to plot the number of events and average sentiment over time.
 - Also displays the frequency of top event types.
 
 ## Key Design Decisions
@@ -84,6 +84,7 @@ The dashboard integrates information from:
   Python 3.9 or higher                             
   RAM: at least 4 GB                            
   Internet connection for first-time geocoding requests                       
+
 
 
 
