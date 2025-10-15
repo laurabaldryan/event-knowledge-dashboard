@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+networkx
+pyvis
+folium
+geopy
+streamlit-folium

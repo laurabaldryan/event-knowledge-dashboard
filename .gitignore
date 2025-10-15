@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Streamlit cache
+.streamlit/
+.cache/
+.cache_data/
+
+# Data and environment files
+data/geocache.csv
+*.env
+*.DS_Store
+
+# Virtual environments
+venv/
+env/
+.venv/
+.conda/
+
+# OS junk
+Thumbs.db
