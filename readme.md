@@ -68,21 +68,22 @@ The dashboard integrates information from:
    pip install -r requirements.txt   
 
 ### 4. Run the Application
-   streamlit run app.py
-
+   streamlit run app.py      
+   
 ## Technologies Used
-  Python
-  Streamlit
-  Pandas
-  NetworkX
-  PyVis
-  Plotly
-  Folium
-  Geopy
-
+  Python     
+  Streamlit    
+  Pandas     
+  NetworkX      
+  PyVis      
+  Plotly     
+  Folium     
+  Geopy    
+   
 ## System Requirements
-  Python 3.9 or higher
-  RAM: at least 4 GB (8 GB recommended for large datasets)
-  Internet connection for first-time geocoding requests
+  Python 3.9 or higher                             
+  RAM: at least 4 GB                            
+  Internet connection for first-time geocoding requests                       
+
 
 
